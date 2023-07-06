@@ -1,7 +1,12 @@
 {
     "folders": [
         {
+            "path": "../robofriends"
+        },
+        {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+    }
 }
