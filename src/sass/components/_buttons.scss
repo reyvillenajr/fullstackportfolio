@@ -1,9 +1,8 @@
 /* Call to Action Button */
 .cta-btn {
-  display: flex;
+  display: inline-block;
   position: relative;
   text-align: center;
-  margin: auto;
   padding: 0.8rem $default-font-size;
   font-weight: bold;
   line-height: 1;
