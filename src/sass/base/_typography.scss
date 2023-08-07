@@ -2,7 +2,7 @@
 
 h1 {
   font-weight: 505;
-  color: azure;
+  color: rgb(244, 237, 248);
 }
 
 p,
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .text-color-main {
-  @include supportColorForIE11();
+  @include supportColorForIE12();
 
   // Responsive text purple style
   @include respond(phone) {
