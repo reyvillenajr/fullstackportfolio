@@ -36,6 +36,7 @@
 
     @include respond(tab-land) {
       font-size: 4rem;
+      text-align: center;
     }
     @include respond(tab-port) {
       font-size: 3.6rem;
@@ -44,9 +45,11 @@
     @include respond(phone) {
       font-size: 3.5rem;
       line-height: 1.5;
+      text-align: center;
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
+      text-align: center;
     }
   }
 
@@ -62,6 +65,7 @@
 
       @include respond(phone) {
         font-size: 2rem;
+        text-align: center;
       }
     }
   }
